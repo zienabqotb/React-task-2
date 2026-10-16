@@ -1,0 +1,84 @@
+
+.all-info{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+span {
+  background-color: #BEE2FD;
+  border-radius: 16.5px;
+  padding: 8px 10.5px 8px 12px;
+}
+.img-cover {
+  background-image: url("photo.png");
+  background-position: cover;
+  height: 89vh;
+  width: 27%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 40px;
+}
+.personal-inputs{
+  padding: 47px 100px 47px 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.title h1{
+  padding-bottom: 8px;
+  font-size: 32px;
+  color: #022959;
+  line-height: 120%;
+}
+.title p{
+  font-size: 16px;
+  color: #9699AA;
+  line-height: 150%;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.div-input{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+input{
+  border:  #D6D9E6 solid 1px ;
+  border-radius: 8px;
+  outline: 0px;
+  padding: 15px;
+  font-size:16px ;
+  font-weight: bold;
+}
+input::placeholder{
+    color: #9699AA;
+
+}
+label{
+  color: #022959;
+  font-size: 14px;
+  font-weight: bold;
+}
+button{
+  padding: 15px 23px;
+  margin-left: auto;
+  background-color:#022959;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
