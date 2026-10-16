@@ -23,7 +23,9 @@ export default function Login() {
   return (
     <main>
       <section className="all-info">
-        <section className="img-cover"></section>
+        <section className="img-cover">
+          <img src="photo.png" alt="" />
+        </section>
         <div className="personal-inputs">
           <div className="title">
             <h1>Personal info</h1>
