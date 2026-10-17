@@ -76,3 +76,19 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
+@media(max-width:991px){
+  .personal-inputs{
+    padding: 10px 20px;
+  }
+  .all-info{
+    width: 100%;
+  }
+}
+@media(max-width:767px){
+  .all-info{
+    justify-content: right;
+  }
+  .img-cover{
+     margin: 20px 10px;
+  }
+}
